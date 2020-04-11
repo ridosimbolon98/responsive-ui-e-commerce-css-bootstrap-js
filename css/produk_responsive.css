@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1199px)
+{
+	.deskripsi_produk
+	{
+		padding-left: 20px;
+	}
+	.image_list li
+	{
+		height: 130px;
+	}
+	.image_selected
+	{
+		height: 420px;
+	}
+	.kuantitas_produk,
+	.warna_produk
+	{
+		width: 162px;
+	}
+	.harga_produk
+	{
+		margin-top: 20px;
+	}
+	.button_container
+	{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 991px)
+{
+	.deskripsi_produk
+	{
+		padding-left: 0px;
+	}
+	.image_selected
+	{
+		width: 100%;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+	.image_list
+	{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		padding-top: 15px;
+	}
+	.image_list li
+	{
+		width: calc(33.33333333% - 10px);
+		height: 220px;
+		margin-bottom: 0px;
+	}
+	.image_list li:not(:last-child)
+	{
+		margin-right: 15px;
+	}
+	.deskripsi_produk
+	{
+		padding-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.image_list li
+	{
+		height: 160px;
+	}
+}
+
+
+@media only screen and (max-width: 575px)
+{
+	.detail_produk{
+		text-align: center !important;
+	}
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
+	
+	.rating_r i::before
+	{
+		font-size: 14px;
+	}
+	
+	.detail_produk
+	{
+		padding-top: 80px;
+	}
+	.image_selected
+	{
+		height: calc(100vw - 30px);
+	}
+	.image_list li
+	{
+		height: calc((100vw - 30px) / 3 - 15px);
+	}
+	.nama_produk
+	{
+		font-size: 24px;
+	}
+
+	.kuantitas_produk
+	{
+		width: 160px;
+	}
+
+	.warna_produk
+	{
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.detail_produk{
+		text-align: center !important;
+	}
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
+	
+	.rating_r i::before
+	{
+		font-size: 14px;
+	}
+	
+	.detail_produk
+	{
+		padding-top: 80px;
+	}
+	.image_selected
+	{
+		height: calc(100vw - 30px);
+	}
+	.image_list li
+	{
+		height: calc((100vw - 30px) / 3 - 15px);
+	}
+	.nama_produk
+	{
+		font-size: 24px;
+	}
+
+	.kuantitas_produk
+	{
+		width: 150px;
+	}
+
+	.warna_produk
+	{
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 320px)
+{
+	.kuantitas_produk
+	{
+		width: 120px;
+		padding-left: 10px;
+	}
+
+	.warna_produk
+	{
+		width: 120px;
+	}
+	.warna_produk > li {
+		padding-left: 10px;
+	}
+}
+
